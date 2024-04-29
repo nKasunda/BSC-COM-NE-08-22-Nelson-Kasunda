@@ -20,21 +20,21 @@ int main()
         cin  >> length;
         area = pow(length,2);
         cout << "The area of the square is  " << area << endl;
-        return 0;
+        break;
      
     case 2:                                              // finds area of rectangle 
         cout << "Enter the rectangle`s length and width ";
         cin  >> length >> width;
         area = length * width;
         cout << "The area of the rectanlge is " << area << endl;
-        return 0;
+        break;
     
     case 3:                                            // finds area of triangle
         cout << "Enter the triangle`s base and height ";
         cin >> base >> height;
         area = (base * height) / 2;
         cout << "The area of the triangle is " << area << endl;
-        return 0;
+        break;
     
     case 4:                           // terminates program existance
         return 0;
